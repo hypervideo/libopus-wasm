@@ -70,6 +70,10 @@ stdenv.mkDerivation rec {
         '_opus_decoder_create', \
         '_opus_decoder_ctl', \
         '_opus_decoder_destroy', \
+        '_opus_encode_float', \
+        '_opus_encoder_create', \
+        '_opus_encoder_ctl', \
+        '_opus_encoder_destroy', \
         '_opus_packet_has_lbrr' \
       ]"
   '';
