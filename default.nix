@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     --closure 1
     --no-entry
     -s WASM=1
-    -s ENVIRONMENT="web"
+    -s ENVIRONMENT="web,worker,shell"
     -s INITIAL_HEAP=262144
     -s ALLOW_MEMORY_GROWTH=1
     -s NO_FILESYSTEM=1
